@@ -1,0 +1,234 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	color: gray;
+}
+.caja1{
+	background-color: #17202A:
+	height:25rem;
+
+}
+h3{
+	color: white;
+}
+a:link {
+  background-color: gold;
+  color: black;
+}
+.cdos{
+	background-color: #1B2631;
+	height:25rem;
+}
+.fancy {
+  text-shadow: 2px 2px 3px #da0921;
+  color: white;
+}
+p:not(.fancy) {
+  	color: #da0921;
+}
+body :not(p) {
+  	text-decoration: underline;
+}
+body :not(div):not(span) {
+ 	font-weight:bold;
+}
+body :not(.crazy, .fancy) {
+  	font-family: regular;
+}
+.ctres{
+	background-color:#424949;
+	height:25rem;
+}
+h2{
+	color: white;
+}
+h6{
+	color: lime;
+}
+html {
+  	font-family: sans-serif;
+}
+
+span,
+div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.first span:nth-child(2n+1),
+.second span:nth-child(2n+1),
+.third span:nth-of-type(2n+1) {
+	background-color: gold;
+}
+.ccuatro{
+	background-color:#4D5656;
+	height:25rem;
+}
+table {
+  	border: 1px solid yellow;
+}
+tr:nth-last-child(-n+3) {
+  	background-color: gold;
+}
+tr:nth-last-child(n+2) {
+  	color: black;
+}
+tr:nth-last-child(2) {
+  	font-weight: 600;
+}
+.ccinco{
+	background-color: #626567;
+	height:25rem;
+}
+span:nth-last-of-type(2) {
+  background-color: gold;
+}
+.cseis{
+	background-color:#7B7D7D;
+	height:25rem;
+}
+p:nth-of-type(2n+1) {
+  color: #da0921;
+}
+p:nth-of-type(2n) {
+  color: gold;
+}
+p:nth-of-type(1) {
+  font-weight: bold;
+}
+main :only-child {
+  color: gray;
+}
+.csiete{
+	background-color:#6E2C00;
+	height:25rem;
+}
+main :only-of-type {
+  color: gold;
+}
+.cocho{
+	background-color: #784212;
+	height:25rem;
+}
+input:invalid {
+  background-color: gray;
+}
+
+form:invalid {
+  border: 5px solid orange;
+}
+
+input:valid {
+  background-color: black;
+}
+
+form:valid {
+  border: 5px solid orange;
+}
+
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
+input:required:invalid {
+  border-color: #C00000;
+}
+.cnueve{
+	background-color:#7E5109;
+	height:25rem;
+}
+input { min-width: 10em; }
+input:-moz-read-only { background: chocolate; }
+input:read-only { background: orange; }
+
+p:-moz-read-only { background: red; }
+p:read-only { background: black; }
+p[contenteditable="true"] { color:cyan; }
+
+.cdiez{
+	background-color:#7D6608;
+	height:25rem;
+}
+@page :right {
+  margin: 2in 3in;
+}
+.conce{
+	background-color: #186A3B;
+	height:25rem;
+}
+:root {
+  --main-bg-color: brown;
+}
+
+.uno {
+  color: white;
+  background-color:salmon;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.dos {
+  color: white;
+  background-color:peru;
+  margin: 10px;
+  width: 150px;
+  height: 70px;
+  display: inline-block;
+}
+.tres {
+  color: white;
+  background-color:orange;
+  margin: 10px;
+  width: 75px;
+}
+.cuatro {
+  color: white;
+  background-color:black;
+  margin: 10px;
+  width: 100px;
+}
+.textoo{
+	color: black;
+}
+.doce{
+	background-color:#145A32;
+	height:25rem;
+}
+.ctrece{
+	background-color:#0B5345;
+	height:25rem;
+}
+.ccatorce{
+	background-color: #0E6251;
+	height:25rem;
+}
+.cquince{
+	background-color:#1B4F72;
+	height:25rem;
+}
+.cunoseis{
+	background-color:#154360;
+	height:25rem;
+}
+.cunosiete{
+	background-color: #4A235A;
+	height:25rem;
+}
+.cunoocho{
+	background-color:#512E5F;
+	height:25rem;
+}
+.cunonueve{
+	background-color:#78281F;
+	height:25rem;
+}
+.cveinte{
+	background-color:#641E16;
+	height:25rem;
+}
