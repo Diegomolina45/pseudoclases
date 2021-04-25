@@ -220,6 +220,25 @@ p[contenteditable="true"] { color:cyan; }
 	background-color: #4A235A;
 	height:25rem;
 }
+p:target {
+  background-color: gold;
+}
+
+/* Agrega un pseudo-elemento dentro del elemento de destino */
+p:target::before {
+  font: 70% sans-serif;
+  content: "►";
+  color: limegreen;
+  margin-right:10%;
+}
+
+/* Estilo de elementos en cursiva dentro del elemento de destino */
+p:target i {
+  color: red;
+}
+h4{
+  color: salmon;
+}
 .cunoocho{
 	background-color:#512E5F;
 	height:25rem;
